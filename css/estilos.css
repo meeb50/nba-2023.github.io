@@ -1,0 +1,86 @@
+﻿/* Reset all tags*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar menu */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+
+.navbar > li {
+    float: left;
+}
+
+.navbar > li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar > li:first-child a {
+    padding: 5px 25px;
+}
+
+.navbar > li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navbar > li a.active {
+    background-color: #000;
+    color: white;
+}
+
+/*Container main*/
+main {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    overflow: auto;
+    padding: 10px 120px;
+}       
+
+/* Footer */
+footer {
+    margin: 10px 0 0 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #05184B;
+    text-align: end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer a.logo {
+    padding: 8px;
+    vertical-align: bottom;
+}
+
+    footer a:hover {
+        background-color: #1C3170;
+    }
+
+/*Estilo para ocultar anuncio servidor Somee */
+div[style]{
+    display:none !important;
+}

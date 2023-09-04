@@ -1,0 +1,36 @@
+{
+  "name": "NBA 2023",
+  "short_name": "NBA 2023",
+  "start_url": "Index.html",
+  "display": "standalone",
+  "background_color": "#FDFDFD",
+  "theme_color": "#05184B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/icons/mipmap-mdpi/icon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/img/icons/mipmap-hdpi/icon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/img/icons/mipmap-xhdpi/icon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/img/icons/mipmap-xxhdpi/icon.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/img/icons/mipmap-xxxhdpi/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
