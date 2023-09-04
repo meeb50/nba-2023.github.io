@@ -14,7 +14,7 @@ const assets = [
     "/img/icons/mipmap-hdpi/icon.png",
     "/img/icons/mipmap-xhdpi/icon.png",
     "/img/icons/mipmap-xxhdpi/icon.png",
-    "/img/icons/mipmap-xxxdpi/icon.png",
+    "/img/icons/mipmap-xxxhdpi/icon.png",
 ];
 
 self.addEventListener("install", installEvent => {
